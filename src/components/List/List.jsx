@@ -14,8 +14,8 @@ const List = ({ places, childClicked, isLoading, type, setType, rating, setRatin
 
   return (
     <div className={classes.container}>
-      <Typography variant='h4'>
-        Restaurants, Hotels & Attractions around you
+      <Typography variant='h5' >
+        Find Restaurants, Hotels, and Activities near you!
       </Typography>
       {isLoading ? (
         <div className={classes.loading}>
@@ -23,7 +23,7 @@ const List = ({ places, childClicked, isLoading, type, setType, rating, setRatin
         </div>
       ) : (
       <>
-  `      <FormControl className={classes.formControl}>
+        <FormControl className={classes.formControl}>
           <InputLabel>Type</InputLabel>
           <Select value={type} onChange={(e) => setType(e.target.value)}>
             <MenuItem value='restaurants'>Restaurants</MenuItem>

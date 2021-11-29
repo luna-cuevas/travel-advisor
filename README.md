@@ -1,4 +1,4 @@
-https://travel-advisory.netlify.app/
+https://trvler.netlify.app/
 
 The purpose of this project was to better understand how APIs work. I used a RapidAPI account to pull data from a Travel Advisor API along with a weather API. I then integrated the data onto a list of restaurants, hotels, and attractions in the area. 
 
